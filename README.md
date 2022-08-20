@@ -3,7 +3,7 @@ Quicksort is one of the divide and conquer algorithm used to quickly sort an arr
 Choosing a pivot is crucial. Choice of pivot can either be dependent on partition routine or can be completely random. 
 partition()
 
-![imagename]([TargetUrl](https://github.com/RohithChevvakula/Quicksort-Visualization/blob/main/Picture1.jpg))
+![Quicksort](https://github.com/RohithChevvakula/Quicksort-Visualization/blob/main/Picture1.jpg)
 ### pseudo code for QuickSort function:
 ```JavaScript
 /* low  –> Starting index,  high  –> Ending index */
