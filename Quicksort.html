@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>My page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body onload="setup()">
+    <div id="userInput">
+        <div class="child">
+            <label id="array-size-label" for="array-size">array-size: </label>
+            <input class="array-size" type="number" width="50%" value="16" placeholder="array size">  
+        </div>
+        <div class="child">
+            <button class="button-85" role="button" onclick="generateRandomArray()">generate random</button>
+        </div>
+        <div class="child">
+            <select id="speed" class="button-85" name="speed">
+                <option value="" disabled selected>Select speed</option>
+                <option value="1">normal</option>
+                <option value="2">Slow</option>
+                <option value="3">Slower</option>
+                <option value="4">Much slower</option>
+            </select>
+        </div>
+        <div class="child">
+            <button class="button-85" role="button" onclick="play()"> Sort </button>
+        </div>
+    </div>
+
+    <div id="play-area" class="play-area">
+        <p class="paly-area-p" id="paly-area-p">play-area</p>
+        <p class="swap-area" id="swap-area"></p>
+    </div>
+
+
+    <div id="container">
+        <div id="inputArea"></div>
+        <div id="outputArea">
+            <!-- <p id="output-para">Output:</p> -->
+            <label id="log-label" for="output-log">Steps:</label>
+            <textarea id="output-log" name="output-log" rows="5" cols="33"></textarea>
+
+        </div>
+    </div>
+    
+    <br/>
+    <script src='rinku.js'></script>
+</body>
+</html>
