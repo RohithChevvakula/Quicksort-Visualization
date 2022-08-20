@@ -9,7 +9,7 @@ function setup() {
 }
 function generateRandomArray() {
     document.querySelectorAll('.block').forEach(i=>i.parentNode.removeChild(i));
-    document.querySelectorAll('.output-log').forEach(i=>i.parentNode.removeChild(i));
+    outputArea.innerHTML="";
     arraySize = Number(document.querySelector('.array-size').value);
     for(var j=1; j<=arraySize; j++) {
         var value = Math.floor(Math.random()*100);
