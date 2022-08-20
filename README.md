@@ -13,5 +13,3 @@ quickSort(arr[], low, high) {
     }
 }
 Quicksort is performed by first partitioning the given array and then placing elements smaller than pivot before it and elements greater than pivot are placed after it. This action is recursive in nature. The sub-arrays are sorted again and again until we get a sorted array. 
- 
-![image](https://user-images.githubusercontent.com/45816813/185763891-f1dcb537-4f56-4b42-951a-894d44f675d5.png)
