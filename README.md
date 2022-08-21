@@ -17,4 +17,19 @@ quickSort(arr[], low, high) {
 }
 ```
 
+### pseudo code for partition technique:
+```JavaScript
+partition(arr, beg, end) {
+  set end as pivotIndex
+  pIndex = beg - 1
+  for i = beg to end-1 {
+  if arr[i] < pivot
+    swap arr[i] and arr[pIndex]
+    pIndex++
+    }
+  swap pivot and arr[pIndex+1]
+return pIndex + 1
+}
+```
+
 Quicksort is performed by first partitioning the given array and then placing elements smaller than pivot before it and elements greater than pivot are placed after it. This action is recursive in nature. The sub-arrays are sorted again and again until we get a sorted array. 
