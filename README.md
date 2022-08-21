@@ -1,10 +1,5 @@
-# QuickSort Algorithm
-Quicksort is one of the divide and conquer algorithm used to quickly sort an array for instance using partitioning method. Quicksort algorithm selects an element as pivot and perform sorting by partitioning around the selected pivot according to whether they are less than or greater than pivot. 
-Choosing a pivot is crucial. Choice of pivot can either be dependent on partition routine or can be completely random. 
-
-Here in this project, let us take the last element of the array as pivot.
-
-![Quicksort](https://github.com/RohithChevvakula/Quicksort-Visualization/blob/main/Picture1.jpg)
+# QuickSort Algorithm Visualization 
+Quicksort is performed by first partitioning the given array and then placing elements smaller than pivot before it and elements greater than pivot are placed after it. This action is recursive in nature. The sub-arrays are sorted again and again until we get a sorted array. 
 ### pseudo code for QuickSort function:
 ```JavaScript
 /* low  –> Starting index,  high  –> Ending index */
@@ -17,6 +12,7 @@ quickSort(arr[], low, high) {
     }
 }
 ```
+> Here in this project, let us take the last element of the array as pivot.
 
 ### pseudo code for partition technique:
 ```JavaScript
@@ -33,4 +29,18 @@ return pIndex + 1
 }
 ```
 
-Quicksort is performed by first partitioning the given array and then placing elements smaller than pivot before it and elements greater than pivot are placed after it. This action is recursive in nature. The sub-arrays are sorted again and again until we get a sorted array. 
+## How to use this project to visualize Quicksort algorithm?
+> Download this project as zip and unzip
+> Open the file 'Quicksort.html' in a browser
+
+### Once you see the web page:
+There are different options on screen. 
+1. To select size of the array
+2. To generate the random integers of size choosen above
+3. To control the speed of the animation
+4. To sort the random array
+5. Output window to see what is happening
+
+> Have fun!
+
+
