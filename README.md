@@ -41,6 +41,8 @@ There are different options on screen.
 4. To sort the random array
 5. Output window to see what is happening
 
+## Watch how to use this project to visualize quicksort algorithm: https://youtu.be/aK4l32kQREQ
+
 > Have fun!
 
 
