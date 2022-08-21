@@ -1,7 +1,8 @@
 # QuickSort Algorithm
 Quicksort is one of the divide and conquer algorithm used to quickly sort an array for instance using partitioning method. Quicksort algorithm selects an element as pivot and perform sorting by partitioning around the selected pivot according to whether they are less than or greater than pivot. 
 Choosing a pivot is crucial. Choice of pivot can either be dependent on partition routine or can be completely random. 
-partition()
+
+Here in this project, let us take the last element of the array as pivot.
 
 ![Quicksort](https://github.com/RohithChevvakula/Quicksort-Visualization/blob/main/Picture1.jpg)
 ### pseudo code for QuickSort function:
