@@ -29,6 +29,26 @@ return pIndex + 1
 }
 ```
 
+## What are time and space complexities for quicksort?
+
+### 1. Time Complexity
+
+#### BEST CASE O(n logn)
+• Best Case Complexity [Big-omega Ω]: O(n*log n)
+• It occurs when the pivot element is always the middle element or near to the middle element
+
+#### AVERAGE CASE O(n logn)
+• Average Case Complexity [Big-theta Θ]: O(n*log n) 
+• It occurs when the above conditions do not occur
+
+#### WORST CASE O(n^2)
+• Worst Case Complexity [Big-O O]: O(n^2)
+• It occurs when the pivot element picked is either the greatest or the smallest element
+
+### 2. Space Complexity
+• The space complexity for quicksort is O(log n).
+
+------------------------------------------------------------------------------------------------
 ## How to use this project to visualize Quicksort algorithm?
 > Download this project as zip and unzip
 > Open the file 'Quicksort.html' in a browser
